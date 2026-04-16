@@ -1,4 +1,4 @@
-.
+```
 /project-root
 |
 ├── README.md
@@ -23,3 +23,5 @@
 │   └── (codigo fuente del proyecto)
 │
 └── .gitignore
+
+```
