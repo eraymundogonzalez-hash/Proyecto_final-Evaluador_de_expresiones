@@ -13,6 +13,7 @@ Sistema diseñado para capturar, validar y procesar expresiones aritméticas y l
 
 ### Estructura del Repositorio
 .
+```
 /project-root
 |
 ├── README.md
@@ -37,3 +38,5 @@ Sistema diseñado para capturar, validar y procesar expresiones aritméticas y l
 │   └── (codigo fuente del proyecto)
 │
 └── .gitignore
+
+```
