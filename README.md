@@ -1,3 +1,17 @@
+## Evaluador de Expresiones Matemáticas
+
+Sistema diseñado para capturar, validar y procesar expresiones aritméticas y lógicas, asegurando la integridad de los datos mediante un motor de validación de sintaxis.
+
+### Stack Tecnológico
+
+*Lenguaje:* Python
+
+*Modelado:* UML 2.5 (diagrams.net)
+
+*Documentación:* Estándar IEEE 830
+
+
+### Estructura del Repositorio
 .
 /project-root
 |
