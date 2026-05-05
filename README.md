@@ -25,6 +25,7 @@ Sistema diseñado para capturar, validar y procesar expresiones aritméticas y l
 │   ├── metricas/
 │ 
 ├── diagramas/
+│   ├── tabla_casos_uso.png
 │   ├── casos_uso.png
 │   ├── secuencia.png
 │   ├── comunicacion.png
