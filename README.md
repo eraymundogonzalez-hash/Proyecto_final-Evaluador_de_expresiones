@@ -31,8 +31,7 @@ Sistema diseñado para capturar, validar y procesar expresiones aritméticas y l
 │   ├── clases.png
 │   ├── estados.png
 │   ├── actividades.png
-│   ├── nodos.png
-│   ├── componentes.png
+│   ├── despliegue.png
 │
 ├── src                 
 │   └── (codigo fuente del proyecto)
