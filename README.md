@@ -20,6 +20,8 @@ Sistema diseñado para capturar, validar y procesar expresiones aritméticas y l
 ├── docs/
 │   ├── SRS/
 │   ├── arquitectura/
+│   │   ├──pdf
+│   │   ├──drawio
 │   ├── administracion/
 │   ├── estimacion/
 │   ├── metricas/

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" pages="4">
+  <diagram name="TDCU" id="pf_KTD4XfpbzlHli24cF">
+    <mxGraphModel dx="2273" dy="1358" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;shadow=1;" value="" vertex="1">
+          <mxGeometry height="880" width="1101" x="-130" y="-190" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-2" parent="hwtEp_hcSFv-wS2Xo0cx-1" style="rounded=0;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;strokeColor=#000000;fillColor=none;" value="[RF002] – [Validación de expresiones]" vertex="1">
+          <mxGeometry height="50" width="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-3" parent="hwtEp_hcSFv-wS2Xo0cx-1" style="rounded=0;html=1;align=left;verticalAlign=middle;fontStyle=1;strokeColor=#000000;fillColor=#F2F2F2;" value="&lt;h3&gt;1. Datos generales&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="35" width="1100" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-4" parent="hwtEp_hcSFv-wS2Xo0cx-1" style="rounded=0;html=1;align=left;verticalAlign=top;fontStyle=1;strokeColor=#000000;fillColor=none;" value="Descripción: &lt;span style=&quot;font-weight: normal;&quot;&gt;Se verifica el balanceo de los signos: (), [] y {}.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;Actores:&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Principal: Usuario&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Secundario: Sistema&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Fecha de elaboración:&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;[27/04/26]&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Fecha de última modificación:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;[27/04/26]&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Responsable de elaboración: &lt;span style=&quot;font-weight: 400;&quot;&gt;Edgar Raymundo González Torres&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="145" width="1100" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-5" parent="hwtEp_hcSFv-wS2Xo0cx-1" style="rounded=0;html=1;align=left;verticalAlign=middle;fontStyle=1;strokeColor=#000000;fillColor=#F2F2F2;" value="&lt;h3&gt;2. Precondiciones&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="35" width="1100" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-6" parent="hwtEp_hcSFv-wS2Xo0cx-1" style="rounded=0;html=1;align=left;verticalAlign=top;fontStyle=1;strokeColor=#000000;fillColor=none;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;El usuario debe de haber ingresado la expresión que será evaluada.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="35" width="1100" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-7" parent="hwtEp_hcSFv-wS2Xo0cx-1" style="rounded=0;html=1;align=left;verticalAlign=middle;fontStyle=1;strokeColor=#000000;fillColor=#F2F2F2;" value="&lt;h3&gt;3. Postcondiciones&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="35" width="1100" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-8" parent="hwtEp_hcSFv-wS2Xo0cx-1" style="rounded=0;html=1;align=left;verticalAlign=top;fontStyle=1;strokeColor=#000000;fillColor=none;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;La expresión ingresada quedas validada para proceder a la evaluacion.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="35" width="1100" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-9" parent="hwtEp_hcSFv-wS2Xo0cx-1" style="rounded=0;html=1;align=left;verticalAlign=middle;fontStyle=1;strokeColor=#000000;fillColor=#F2F2F2;" value="&lt;h3&gt;4. Flujo normal de eventos (FNE)&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="35" width="1100" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-10" parent="hwtEp_hcSFv-wS2Xo0cx-1" style="rounded=0;html=1;align=center;verticalAlign=middle;fontStyle=1;strokeColor=#000000;fillColor=none;" value="Usuario" vertex="1">
+          <mxGeometry height="35" width="550" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-11" parent="hwtEp_hcSFv-wS2Xo0cx-1" style="rounded=0;html=1;align=center;verticalAlign=middle;fontStyle=1;strokeColor=#000000;fillColor=none;" value="Sistema" vertex="1">
+          <mxGeometry height="35" width="550" x="550" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-12" parent="hwtEp_hcSFv-wS2Xo0cx-1" style="rounded=0;html=1;align=left;verticalAlign=top;fontStyle=1;strokeColor=#000000;fillColor=none;" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="141" width="550" x="-1" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-13" parent="hwtEp_hcSFv-wS2Xo0cx-1" style="rounded=0;html=1;align=left;verticalAlign=top;fontStyle=1;strokeColor=#000000;fillColor=none;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;1. Verifica el balanceo de los signos.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;2. Confirma que el formato de la expresión es correcta.&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="551" x="550" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-14" parent="hwtEp_hcSFv-wS2Xo0cx-1" style="rounded=0;html=1;align=left;verticalAlign=middle;fontStyle=1;strokeColor=#000000;fillColor=#F2F2F2;" value="&lt;h3&gt;5. Alternativas&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="35" width="1100" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-15" parent="hwtEp_hcSFv-wS2Xo0cx-1" style="rounded=0;html=1;align=center;verticalAlign=middle;fontStyle=1;strokeColor=#000000;fillColor=none;" value="Acción" vertex="1">
+          <mxGeometry height="35" width="550" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-16" parent="hwtEp_hcSFv-wS2Xo0cx-1" style="rounded=0;html=1;align=center;verticalAlign=middle;fontStyle=1;strokeColor=#000000;fillColor=none;" value="Reacción" vertex="1">
+          <mxGeometry height="35" width="550" x="550" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-17" parent="hwtEp_hcSFv-wS2Xo0cx-1" style="rounded=0;html=1;align=left;verticalAlign=top;fontStyle=1;strokeColor=#000000;fillColor=none;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;1.1.1 Muestra un mensaje diciendo que no se puede calcular la expresón si es invalida.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="92" width="550" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-18" parent="hwtEp_hcSFv-wS2Xo0cx-1" style="rounded=0;html=1;align=left;verticalAlign=top;fontStyle=1;strokeColor=#000000;fillColor=none;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;1.1.2 Vuelve a ingresar la expresión.&lt;/span&gt;" vertex="1">
+          <mxGeometry height="91" width="550" x="550" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-19" parent="hwtEp_hcSFv-wS2Xo0cx-1" style="rounded=0;html=1;align=left;verticalAlign=middle;fontStyle=1;strokeColor=#000000;fillColor=#F2F2F2;" value="&lt;h3&gt;6. Excepciones&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="35" width="1100" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-20" parent="hwtEp_hcSFv-wS2Xo0cx-1" style="rounded=0;html=1;align=center;verticalAlign=middle;fontStyle=1;strokeColor=#000000;fillColor=none;" value="Acción" vertex="1">
+          <mxGeometry height="35" width="550" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-21" parent="hwtEp_hcSFv-wS2Xo0cx-1" style="rounded=0;html=1;align=center;verticalAlign=middle;fontStyle=1;strokeColor=#000000;fillColor=none;" value="Reacción" vertex="1">
+          <mxGeometry height="35" width="550" x="550" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-22" parent="hwtEp_hcSFv-wS2Xo0cx-1" style="rounded=0;html=1;align=left;verticalAlign=top;fontStyle=1;strokeColor=#000000;fillColor=none;" value="1.1" vertex="1">
+          <mxGeometry height="100" width="550" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="hwtEp_hcSFv-wS2Xo0cx-23" parent="hwtEp_hcSFv-wS2Xo0cx-1" style="rounded=0;html=1;align=left;verticalAlign=top;fontStyle=1;strokeColor=#000000;fillColor=none;" value="1.2" vertex="1">
+          <mxGeometry height="100" width="550" x="550" y="780" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ZeAfruntc5HkVkPw_PA5" name="CU">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SszPjiBAl7CrzH72sjBB-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;shadow=1;" value="Sistema" vertex="1">
+          <mxGeometry height="60" width="30" x="648" y="161" as="geometry" />
+        </mxCell>
+        <mxCell id="SszPjiBAl7CrzH72sjBB-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shadow=1;" value="1. Verifica el balanceo de los signos." vertex="1">
+          <mxGeometry height="74" width="151" x="330" y="51" as="geometry" />
+        </mxCell>
+        <mxCell id="xl9flX4w7kZZsptRmgUS-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shadow=1;" value="2. Confirma que el formato de la expresión es correcta." vertex="1">
+          <mxGeometry height="75" width="170" x="330" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="lBgFvbDbcD4rwI32BQK0-1" edge="1" parent="1" source="SszPjiBAl7CrzH72sjBB-1" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;shadow=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="SszPjiBAl7CrzH72sjBB-2" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="391" y="231" as="sourcePoint" />
+            <mxPoint x="551" y="231" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lBgFvbDbcD4rwI32BQK0-2" edge="1" parent="1" source="SszPjiBAl7CrzH72sjBB-1" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;shadow=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="xl9flX4w7kZZsptRmgUS-1" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="391" y="231" as="sourcePoint" />
+            <mxPoint x="551" y="231" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18qoWfjT-9CHUYqJCAZ--1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;shadow=1;" value="Usuario" vertex="1">
+          <mxGeometry height="60" width="30" x="204" y="161" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ABWs1VrQPWwQqEA2FtJX" name="Secuencia">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_Nd0wPteovzQ11G4vVET-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};shadow=1;rounded=1;" value="Sistema" vertex="1">
+          <mxGeometry height="427" width="88" x="477" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="_Nd0wPteovzQ11G4vVET-4" parent="_Nd0wPteovzQ11G4vVET-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};shadow=1;" value="" vertex="1">
+          <mxGeometry height="337" width="10" x="39" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="_Nd0wPteovzQ11G4vVET-5" edge="1" parent="_Nd0wPteovzQ11G4vVET-2" source="_Nd0wPteovzQ11G4vVET-4" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;shadow=1;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="_Nd0wPteovzQ11G4vVET-4" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: normal; font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;1. Verifica el&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: normal; background-color: light-dark(rgb(236, 236, 236), rgb(34, 34, 34)); font-size: 12px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: normal; background-color: light-dark(rgb(236, 236, 236), rgb(34, 34, 34)); font-size: 12px;&quot;&gt;balanceo&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: normal; background-color: light-dark(rgb(236, 236, 236), rgb(34, 34, 34)); font-size: 12px;&quot;&gt;de los signos()&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="0.1607" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="128" y="69" />
+              <mxPoint x="128" y="216" />
+            </Array>
+            <mxPoint x="174" y="211" as="sourcePoint" />
+            <mxPoint x="169" y="129" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jU9dmlY6ZOprmD_ucjW_-1" edge="1" parent="_Nd0wPteovzQ11G4vVET-2" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;shadow=1;edgeStyle=orthogonalEdgeStyle;" value="2. Confirma que el&amp;nbsp;&lt;div&gt;formato de la expresión&amp;nbsp;&lt;/div&gt;&lt;div&gt;es correcta()&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="0.1911" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="49" y="234" />
+              <mxPoint x="130" y="234" />
+              <mxPoint x="130" y="372" />
+              <mxPoint x="49" y="372" />
+            </Array>
+            <mxPoint x="49" y="252.9999999999999" as="sourcePoint" />
+            <mxPoint x="49" y="372" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oitdarLcdZc4GQHyqH_0-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;shadow=1;" value="frame" vertex="1">
+          <mxGeometry height="509" width="468" x="191" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="xERihKnumSLqNIiUDpHG-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};shadow=1;rounded=1;" value="Usuario" vertex="1">
+          <mxGeometry height="445" width="100" x="254" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="XGFP3fK03eTVT2ZVgpCR-4" parent="xERihKnumSLqNIiUDpHG-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};shadow=1;" value="" vertex="1">
+          <mxGeometry height="58" width="10" x="45" y="369" as="geometry" />
+        </mxCell>
+        <mxCell id="XGFP3fK03eTVT2ZVgpCR-3" parent="xERihKnumSLqNIiUDpHG-1" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;shadow=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="35" y="381" as="geometry" />
+        </mxCell>
+        <mxCell id="XGFP3fK03eTVT2ZVgpCR-2" edge="1" parent="1" source="_Nd0wPteovzQ11G4vVET-4" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;shadow=1;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="xERihKnumSLqNIiUDpHG-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="423" y="477" />
+            </Array>
+            <mxPoint x="513" y="295" as="sourcePoint" />
+            <mxPoint x="433" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-K0XPCnTGxIdQnqhfmRA" name="Comunicación">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Hz2nuX09N9C8KiU26Xuc-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;shadow=1;" value="Sistema" vertex="1">
+          <mxGeometry height="60" width="30" x="43" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="Hz2nuX09N9C8KiU26Xuc-2" parent="1" style="html=1;whiteSpace=wrap;shadow=1;" value="Verificación" vertex="1">
+          <mxGeometry height="47" width="110" x="338" y="100.5" as="geometry" />
+        </mxCell>
+        <mxCell id="bFXaWTyGdr7672hoGvP2-1" edge="1" parent="1" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;shadow=1;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="98" y="131.5" as="sourcePoint" />
+            <mxPoint x="329" y="131.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bFXaWTyGdr7672hoGvP2-2" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;shadow=1;" value="1. Verifica el balanceo&lt;div&gt;de los signos()&lt;/div&gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="133" y="115.5" as="sourcePoint" />
+            <mxPoint x="293" y="115.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bFXaWTyGdr7672hoGvP2-3" parent="1" style="html=1;whiteSpace=wrap;shadow=1;" value="ResultadoAnalisis" vertex="1">
+          <mxGeometry height="50" width="110" x="698" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="bFXaWTyGdr7672hoGvP2-4" edge="1" parent="1" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;shadow=1;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="458" y="126.5" as="sourcePoint" />
+            <mxPoint x="689" y="126.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bFXaWTyGdr7672hoGvP2-5" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;shadow=1;" value="2. Confirma que el formato&amp;nbsp;&lt;div&gt;de la expresión es correcta()&lt;br&gt;&lt;div&gt;&lt;br style=&quot;font-size: 12px; font-weight: 700; text-align: left;&quot;&gt;&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" width="160" x="0.0125" y="-13" as="geometry">
+            <mxPoint y="1" as="offset" />
+            <mxPoint x="493" y="110.5" as="sourcePoint" />
+            <mxPoint x="653" y="110.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
