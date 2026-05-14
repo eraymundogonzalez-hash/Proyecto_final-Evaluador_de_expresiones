@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Gemini" pages="8">
+  <diagram id="CU_RF04" name="1. Casos de Uso">
+    <mxGraphModel dx="975" dy="528" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;shadow=1;labelBackgroundColor=none;" value="Usuario" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="fne1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;" value="1. El usuario confirma la evaluación de la expresión" vertex="1">
+          <mxGeometry height="60" width="200" x="310" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fne2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;" value="2. El sistema almacena la expresión, validez, resultado y fecha/hora en la BD" vertex="1">
+          <mxGeometry height="60" width="200" x="310" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fne3" parent="1" style="ellipse;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;" value="3. El usuario visualiza la confirmación de guardado" vertex="1">
+          <mxGeometry height="60" width="200" x="310" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="fne4" parent="1" style="ellipse;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;" value="4. El sistema muestra notificación de éxito y refresca el historial" vertex="1">
+          <mxGeometry height="60" width="200" x="310" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;shadow=1;labelBackgroundColor=none;" value="Sistema" vertex="1">
+          <mxGeometry height="60" width="30" x="720" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="l1" edge="1" parent="1" source="u1" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=none;" target="fne1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l2" edge="1" parent="1" source="fne2" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=none;" target="s1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l3" edge="1" parent="1" source="u1" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=none;" target="fne3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4" edge="1" parent="1" source="fne4" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=none;" target="s1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SEQ_RF04" name="2. Secuencia">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};shadow=1;rounded=1;" value="Usuario" vertex="1">
+          <mxGeometry height="420" width="100" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nw1z-qKI0WH74oL29toB-1" parent="L1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};shadow=1;" value="" vertex="1">
+          <mxGeometry height="300" width="10" x="45" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7VPLnn3iiJqe39bnMR5Y-1" parent="L1" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;shadow=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="35" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="L2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};shadow=1;rounded=1;" value="Sistema" vertex="1">
+          <mxGeometry height="420" width="100" x="320" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nw1z-qKI0WH74oL29toB-3" parent="L2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};shadow=1;" value="" vertex="1">
+          <mxGeometry height="300" width="10" x="45" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};shadow=1;rounded=1;" value="BD (SQLite)" vertex="1">
+          <mxGeometry height="420" width="100" x="560" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nw1z-qKI0WH74oL29toB-2" parent="L3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};shadow=1;" value="" vertex="1">
+          <mxGeometry height="300" width="10" x="45" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;shadow=1;" value="1. Confirma la evaluación de la expresión">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.5" y="160" as="sourcePoint" />
+            <mxPoint x="369.5" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;shadow=1;" value="2. Almacena la expresión, validez,&amp;nbsp;&lt;div&gt;resultado y fecha/hora&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0042" as="geometry">
+            <mxPoint y="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="460" y="249.5" />
+            </Array>
+            <mxPoint x="369.5" y="249.5" as="sourcePoint" />
+            <mxPoint x="609.5" y="249.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;shadow=1;" value="3. Muestra notificación de éxito,&amp;nbsp;&lt;div&gt;refresca el historial&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="369.5" y="310" as="sourcePoint" />
+            <mxPoint x="129.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="COM_RF04" name="3. Comunicación">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="obj1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;shadow=1;" value=":Usuario" vertex="1">
+          <mxGeometry height="60" width="30" x="100" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="obj2" parent="1" style="html=1;whiteSpace=wrap;shadow=1;" value=":Sistema" vertex="1">
+          <mxGeometry height="50" width="110" x="320" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="obj3" parent="1" style="html=1;whiteSpace=wrap;shadow=1;" value=":BD_SQLite" vertex="1">
+          <mxGeometry height="50" width="110" x="580" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="msg1" edge="1" parent="1" source="obj1" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;shadow=1;" target="obj2" value="">
+          <mxGeometry relative="1" x="0.0526" y="-30" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg2" edge="1" parent="1" source="obj2" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;shadow=1;" target="obj3" value="">
+          <mxGeometry relative="1" x="-0.0667" y="-30" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HoNUkQ45so21MxD6XesO-2" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;shadow=1;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;1: confirmaEvaluacion()&lt;/span&gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="150" y="220" as="sourcePoint" />
+            <mxPoint x="310" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HoNUkQ45so21MxD6XesO-4" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;shadow=1;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;2: almacenarDatos()&lt;/span&gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="450" y="220" as="sourcePoint" />
+            <mxPoint x="570" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HoNUkQ45so21MxD6XesO-5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;shadow=1;" value="3: confirmacionOK()">
+          <mxGeometry relative="1" width="80" y="26" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="300" y="245" as="sourcePoint" />
+            <mxPoint x="160" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CLASS_UML" name="4. Clases">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;shadow=1;" value="EvaluacionRepository" vertex="1">
+          <mxGeometry height="104" width="220" x="300" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" parent="c1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- db_path: str" vertex="1">
+          <mxGeometry height="26" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="l1" parent="c1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" parent="c1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ guardarResultado(dict)&#xa;+ refrescarHistorial()" vertex="1">
+          <mxGeometry height="44" width="220" y="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="STATE_RF04" name="5. Estados">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="init" parent="1" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;strokeWidth=5;perimeter=ellipsePerimeter;shadow=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="100" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="st1" parent="1" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;shadow=1;" value="Evaluación Concluida" vertex="1">
+          <mxGeometry height="40" width="140" x="200" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="st2" parent="1" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;shadow=1;" value="Registro Persistido" vertex="1">
+          <mxGeometry height="40" width="140" x="420" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="t1" edge="1" parent="1" source="init" style="endArrow=open;html=1;rounded=0;endFill=0;" target="st1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t2" edge="1" parent="1" source="st1" style="endArrow=open;html=1;rounded=0;endFill=0;" target="st2" value="Confirmar Guardado">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ACT_RF04" name="6. Actividades">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pool" parent="1" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=1;" value="Persistencia RF04" vertex="1">
+          <mxGeometry height="300" width="600" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lane1" parent="pool" style="swimlane;html=1;startSize=20;shadow=1;" value="Usuario" vertex="1">
+          <mxGeometry height="280" width="200" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="act1" parent="lane1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;shadow=1;" value="Confirmar Evaluación" vertex="1">
+          <mxGeometry height="40" width="100" x="50" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lane2" parent="pool" style="swimlane;html=1;startSize=20;shadow=1;" value="Sistema" vertex="1">
+          <mxGeometry height="280" width="200" x="200" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="act2" parent="lane2" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;shadow=1;" value="Procesar Datos" vertex="1">
+          <mxGeometry height="40" width="100" x="50" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lane3" parent="pool" style="swimlane;html=1;startSize=20;shadow=1;" value="SQLite" vertex="1">
+          <mxGeometry height="280" width="200" x="400" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="act3" parent="lane3" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;shadow=1;" value="Almacenar Registro" vertex="1">
+          <mxGeometry height="40" width="100" x="50" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" edge="1" parent="pool" source="act1" style="edgeStyle=none;endArrow=classicThin;endFill=1;" target="act2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2" edge="1" parent="pool" source="act2" style="edgeStyle=none;endArrow=classicThin;endFill=1;" target="act3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DEP_RF04" name="7. Despliegue">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="node1" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;shape=cube;size=10;direction=south;fontStyle=4;html=1;shadow=1;" value="PC Local (Python)" vertex="1">
+          <mxGeometry height="180" width="250" x="100" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="comp1" parent="1" style="shape=component;align=left;spacingLeft=36;html=1;shadow=1;" value="Módulo Persistencia" vertex="1">
+          <mxGeometry height="60" width="120" x="165" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="node2" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;shape=cube;size=10;direction=south;fontStyle=4;html=1;shadow=1;" value="Storage" vertex="1">
+          <mxGeometry height="180" width="200" x="450" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="file1" parent="1" style="shape=component;align=left;spacingLeft=36;html=1;shadow=1;" value="expressions.db" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" edge="1" parent="1" source="comp1" style="dashed=1;endArrow=open;endFill=0;" target="file1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ARCH_LOGIC" name="8. Arquitectura">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l1" parent="1" style="swimlane;whiteSpace=wrap;html=1;shadow=1;" value="Presentación (UI)" vertex="1">
+          <mxGeometry height="80" width="500" x="120" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l2" parent="1" style="swimlane;whiteSpace=wrap;html=1;shadow=1;" value="Negocio (Algoritmo Pilas)" vertex="1">
+          <mxGeometry height="80" width="500" x="120" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="l3" parent="1" style="swimlane;whiteSpace=wrap;html=1;shadow=1;" value="Datos (SQLite)" vertex="1">
+          <mxGeometry height="80" width="500" x="120" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" edge="1" parent="1" source="l1" style="endArrow=classic;html=1;" target="l2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2" edge="1" parent="1" source="l2" style="endArrow=classic;html=1;" target="l3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
