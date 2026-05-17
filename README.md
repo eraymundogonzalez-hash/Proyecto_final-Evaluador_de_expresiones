@@ -25,6 +25,7 @@ Sistema diseñado para capturar, validar y procesar expresiones aritméticas y l
 │   ├── administracion/
 │   ├── estimacion/
 │   ├── metricas/
+│   ├── pruebas/
 │ 
 ├── diagramas/
 │   ├── casos_uso.png
@@ -35,9 +36,8 @@ Sistema diseñado para capturar, validar y procesar expresiones aritméticas y l
 │   ├── actividades.png
 │   ├── despliegue.png
 │
-├── src                 
-│   └── (codigo fuente del proyecto)
-│
-└── .gitignore
+└── src                 
+    └── (codigo fuente del proyecto)
+
 
 ```
