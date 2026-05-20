@@ -235,6 +235,9 @@ class LoginWindow(QDialog):
             restantes = self.MAX_INTENTOS - self._intentos
 
             if self._intentos >= self.MAX_INTENTOS:
+                self._lbl_intentos.setText(
+                    f"Intentos restantes: {restantes} de {self.MAX_INTENTOS}"
+                )
                 self._activar_bloqueo()
             else:
                 self._lbl_error.setStyleSheet("color: #e74c3c; font-size: 12px;")
